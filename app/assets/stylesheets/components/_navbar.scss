@@ -1,6 +1,18 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: #ffffff;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  padding: 25px 40px 25px 50px;
+}
+
+.logo {
+  color: #2d2e32;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 1.17em;
+  margin-bottom: 0px;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +21,10 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+a.nav-link {
+  font-family: Poppins, sans-serif;
+  color: #2d2e32;
+  font-weight: 600;
 }

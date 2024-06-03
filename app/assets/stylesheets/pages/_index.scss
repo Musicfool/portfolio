@@ -1,2 +1,29 @@
 // Import page-specific CSS files here.
 @import "home";
+body {
+  font-weight: 300;
+  background-color: #FFFEF7;
+}
+
+.container {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  justify-content: center;
+  max-width: 107rem;
+}
+ .container h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: #2d2e32;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  line-height: 1.4;
+}
+
+.text {
+  width: 50rem;
+  color :#555
+}
